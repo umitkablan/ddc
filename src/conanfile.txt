@@ -1,0 +1,8 @@
+[requires]
+openssl/1.1.1l
+libuv/1.42.0
+hiredis/1.0.2
+rapidjson/1.1.0
+
+[generators]
+cmake
