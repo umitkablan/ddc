@@ -2,13 +2,13 @@
 
 ### Development Environment
 Make sure docker is installed to set up compile environment via docker (build image and execute into development environment):
-`
+```sh
 docker build -f docker/Dockerfile . -t ddc
-`
+```
 After building the image, execute into it while sharing source directory:
-`
+```sh
 docker run -ti -v /path/to/host/source/ddc:/SRC/ddc ddc bash
-`
+```
 
 ### Run Test
 From now on you can build DDC source and run it:
